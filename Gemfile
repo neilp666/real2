@@ -17,6 +17,8 @@ gem 'bootstrap-sass', '~> 3.3.5'
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
 
+gem 'devise'
+
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
