@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Job title:</strong>
+  <%= @profile.job_title %>
+</p>
+
+<p>
+  <strong>Job description:</strong>
+  <%= @profile.job_description %>
+</p>
+
+<p>
+  <strong>Skills:</strong>
+  <%= @profile.skills %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @profile.location %>
+</p>
+
+<p>
+  <strong>Education:</strong>
+  <%= @profile.education %>
+</p>
+
+<p>
+  <strong>Qualifications:</strong>
+  <%= @profile.qualifications %>
+</p>
+
+<%= link_to 'Edit', edit_profile_path(@profile) %> |
+<%= link_to 'Back', profiles_path %>
