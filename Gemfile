@@ -13,11 +13,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'bootstrap-sass', '~> 3.3.5'
-
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
-
 gem 'devise'
+gem 'simple_form'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
